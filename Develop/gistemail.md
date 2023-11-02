@@ -1,5 +1,4 @@
-# Week 17 Regex tutorial
-
+# Week 17 Regex for matching emails 
 
 ## Summary
 
