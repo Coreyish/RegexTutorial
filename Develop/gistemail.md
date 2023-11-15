@@ -4,8 +4,6 @@
 
 Matching an Email with a Regular Expression - Learn the power of regular expressions by exploring how to match email addresses. We'll also dissect key regex components."
 
-## Summary
-
 ## Table of Contents
 
 - [Anchors](#anchors)
@@ -16,9 +14,6 @@ Matching an Email with a Regular Expression - Learn the power of regular express
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Boundaries](#boundaries)
-- [Back-references](#back-references)
-- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
 
@@ -31,19 +26,19 @@ Anchors, like the caret (^) and dollar sign ($), specify the start or end of a s
 ### Character Classes
 Character classes, like A-Z or a-z, match any character within a specified range, such as all letters from A to Z or a to z, and it can apply to numbers too.
 ### Flags
-
+Regular expressions come with six optional flags that help with tasks like searching everywhere in a text. These flags can be used alone or together, and they are part of the special code used for these searches.
 ### Grouping and Capturing
-
+In this code,([a-z0-9_.-]+) captures the user's email name, the second part ([\da-z.-]+) captures the email service, and the ([a-z.]{2,6}) captures the .com part.
 ### Bracket Expressions
+    [a-z0-9_.-]: Matching any case-sensitive letter from a to z, any digit from 0 to 9, and the characters "_", "-", and ".".
 
+    [\da-z.-]: Matching a single digit from 0 to 9, any case-sensitive letter from a to z, and the characters "." and "-".
+
+    [a-z.]: Matching any case-sensitive letter from a to z and the character ".".
 ### Greedy and Lazy Match
-
-### Boundaries
-
-### Back-references
-
-### Look-ahead and Look-behind
+This regex utilizes greedy matching. The "+" quantifier ensures it matches as extensively as possible, providing back as required. Additionally, the "{}" quantifier in {2,6} for the final capture group is another example of greedy quantification.
 
 ## Author
-
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Corey Obiri
+Github: Github.com/Coreyish
+2023

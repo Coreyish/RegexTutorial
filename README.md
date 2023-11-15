@@ -89,7 +89,7 @@ To clone the repo:
   ## Resources and Help
   https://www.youtube.com/watch?v=7DG3kCDx53c
   https://coding-boot-camp.github.io/full-stack/computer-science/regex-tutorial
-
+https://www.tutorialspoint.com/checking-for-valid-email-address-using-regular-expressions-in-java
 ---
 
   ## Contact Information:
